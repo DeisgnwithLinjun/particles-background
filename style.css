@@ -61,12 +61,8 @@ html, body {
 }
 
 body {
-  background: #FFFFFF;
-  font-family: 'Montserrat', sans-serif;
-  color: #fff;
-  line-height: 1.3;
-  -webkit-font-smoothing: antialiased;
-}
+  background: transparent;
+};
 
 #particles {
   background: url('http://arnaudel.perso.neuf.fr/Payekhali/Fonds/1280/AS11-40-5873.jpg') top center;
