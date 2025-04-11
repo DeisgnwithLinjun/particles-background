@@ -376,8 +376,8 @@
     directionX: 'center', // 'center', 'left' or 'right'. 'center' = dots bounce off edges
     directionY: 'center', // 'center', 'up' or 'down'. 'center' = dots bounce off edges
     density: 10000, // How many particles will be generated: one particle every n pixels
-    dotColor: '#BFBFBF',
-    lineColor: '#C3C8BD',
+    dotColor: '#A8D5BA',
+    lineColor: '#FFF9C4',
     particleRadius: 5, // Dot size
     lineWidth: 1,
     curvedLines: false,
@@ -450,8 +450,8 @@
 
 document.addEventListener('DOMContentLoaded', function () {
   particleground(document.getElementById('particles'), {
-    dotColor: '#eee',
-    lineColor: '#eee'
+    dotColor: '#A8D5BA',
+    lineColor: '#FFF9C4'
   });
   var intro = document.getElementById('intro');
   intro.style.marginTop = - intro.offsetHeight / 2 + 'px';
