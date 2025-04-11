@@ -147,3 +147,29 @@ p {
     height: 4px;
   }
 }
+
+/* 🌙 Dark Mode Support */
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #1A1A1A !important; /* Deep greenish-black */
+  }
+
+  #particles {
+    background-color: #1A1A1A !important;
+  }
+
+  /* Optional: change button or text if needed */
+  h1, p {
+    color: #dfffe2; /* Softer light green text */
+  }
+
+  .btn {
+    border-color: #dfffe2;
+    color: #dfffe2;
+  }
+
+  .btn:hover {
+    color: #101c16;
+    background: #dfffe2;
+  }
+}
